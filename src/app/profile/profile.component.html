@@ -1,0 +1,9 @@
+<div class="user-profile">
+  <h2>Uusario: {{ userData?.username }}</h2>
+  <p><strong>Documento:</strong> {{ userData?.document }}</p>
+  <p><strong>Fecha de nacimiento:</strong> {{ userData?.birthdate }}</p>
+  <p><strong>Historia clínica:</strong> {{ userData?.clinicHistory }}</p>
+  <p><strong>Teléfono:</strong> {{ userData?.phone }}</p>
+  <p><strong>Correo electrónico:</strong> {{ userData?.email }}</p>
+  <button class="redirect-button" (click)="redirectToReact()">Ir a otra página</button>
+</div>

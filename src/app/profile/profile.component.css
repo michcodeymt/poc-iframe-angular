@@ -1,0 +1,34 @@
+.user-profile {
+  border: 1px solid #ccc;
+  padding: 20px;
+  margin-bottom: 20px;
+}
+
+.user-profile h2 {
+  margin-top: 0;
+}
+
+.user-profile p {
+  margin-bottom: 5px;
+}
+
+.user-profile strong {
+  font-weight: bold;
+}
+
+.redirect-button {
+  background-color: #008CBA;
+  border: none;
+  color: white;
+  padding: 10px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin-top: 10px;
+  cursor: pointer;
+}
+
+.redirect-button:hover {
+  background-color: #006F8F;
+}
